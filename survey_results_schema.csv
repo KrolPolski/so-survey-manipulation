@@ -1,0 +1,88 @@
+qid,qname,question,force_resp,type,selector
+QID2,MainBranch,"Which of the following options best describes you today? For the purpose of this survey, a developer is ""someone who writes code"".*",TRUE,MC,SAVR
+QID127,Age,What is your age?*,TRUE,MC,SAVR
+QID296,Employment,Which of the following best describes your current employment status? Select all that apply.*,TRUE,MC,MAVR
+QID308,RemoteWork,Which best describes your current work situation?,FALSE,MC,SAVR
+QID341,Check,Just checking to make sure you are paying attention to the survey questions. Select ‘Apples’ from the list and you can get back to the survey.*<br><br>,TRUE,MC,SAVR
+QID297,CodingActivities,Which of the following best describes the code you write outside of work? Select all that apply.,FALSE,MC,MAVR
+QID25,EdLevel,Which of the following best describes the highest level of formal education that you’ve completed? *,TRUE,MC,SAVR
+QID276,LearnCode,How do you learn to code? Select all that apply.,FALSE,MC,MAVR
+QID281,LearnCodeOnline,What online resources do you use to learn to code? Select all that apply.,FALSE,MC,MAVR
+QID331,TechDoc,What is the source of the technical documentation you use most often to learn to code?  Select all that apply.,FALSE,MC,MAVR
+QID32,YearsCode,"Including any education, how many years have you been coding in total?",FALSE,MC,DL
+QID34,YearsCodePro,"NOT including education, how many years have you coded professionally (as a part of your work)?",FALSE,MC,DL
+QID31,DevType,"Which of the following describes your current job, the one you do most of the time? Please select only one.",FALSE,MC,SAVR
+QID29,OrgSize,"Approximately how many people are employed by the company or organization you currently work for?  This should only include your primary company, and not the entire holding or parent company if that applies.",FALSE,MC,SAVR
+QID278,PurchaseInfluence,"What level of influence do you, personally, have over new technology purchases at your organization?",FALSE,MC,SAVR
+QID279,BuyNewTool,"When buying a new tool or software, how do you discover and research available solutions? Select all that apply.",FALSE,MC,MAVR
+QID330,BuildvsBuy,"When asked to provide a recommendation for solving a problem at work with a new tool or software, what has been your most recent choice of the following?",FALSE,MC,SAVR
+QID335,TechEndorse,What product feature do you care about most when endorsing a technology purchase? Select all that apply.,FALSE,MC,MAVR
+QID6,Country,"Where do you live? <span style=""font-weight: bolder;"">*</span>",TRUE,MC,DL
+QID50,Currency,"Which currency do you use day-to-day? If your answer is complicated, please pick the one you're most comfortable estimating in. *",TRUE,MC,DL
+QID51,CompTotal,"What is your current total <b>annual</b> compensation (salary, bonuses, and perks, before taxes and deductions)? Please enter a whole number in the box below, without any punctuation.  If you are paid hourly, please estimate an equivalent yearly salary. If you prefer not to answer, please leave the box empty. ",FALSE,TE,SL
+QID233,Language,"Which <b>programming, scripting, and markup languages</b> have you done extensive development work in over the past year, and which do you want to work in over the next year? (If you both worked with the language and want to continue to do so, please check both boxes in that row.)",FALSE,Matrix,Likert
+QID262,Database,"Which <b>database environments </b>have you done extensive development work in over the past year, and which do you want to work in over the next year? (If you both worked with the database and want to continue to do so, please check both boxes in that row.)",FALSE,Matrix,Likert
+QID263,Platform,"Which <b>cloud platforms</b> have you done extensive development work in over the past year, and which do you want to work in over the next year? (If you both worked with the platform and want to continue to do so, please check both boxes in that row.)",FALSE,Matrix,Likert
+QID264,Webframe,"Which <b>web frameworks and web technologies</b> have you done extensive development work in over the past year, and which do you want to work in over the next year? (If you both worked with the framework and want to continue to do so, please check both boxes in that row.)",FALSE,Matrix,Likert
+QID340,Embedded,"Which <b>embedded systems and technologies</b> have you done extensive development work in over the past year, and which do you want to work in over the next year? (If you both worked with the framework and want to continue to do so, please check both boxes in that row.)",FALSE,Matrix,Likert
+QID265,MiscTech,"Which <b>other frameworks and libraries</b> have you done extensive development work in over the past year, and which do you want to work in over the next year? (If you both worked with the framework and want to continue to do so, please check both boxes in that row.)",FALSE,Matrix,Likert
+QID275,ToolsTech,"Which <b>developer </b><strong>tools for compiling, building and testing</strong> have you done extensive development work in over the past year, and which do you want to work in over the next year? (If you both worked with the technology and want to continue to do so, please check both boxes in that row.)",FALSE,Matrix,Likert
+QID274,NEWCollabTools,"Which <strong>development environments</strong> did you use regularly over the past year, and which do you want to work with over the next year? Please check all that apply.",FALSE,Matrix,Likert
+QID71,OpSys,What is the primary <b>operating system</b> in which you work? ,FALSE,Matrix,Likert
+QID282,OfficeStackAsync,"Which <b>collaborative work management and/or code documentation tools</b> did you use regularly over the past year, and which do you want to work with over the next year? Select all that apply",FALSE,Matrix,Likert
+QID307,OfficeStackSync,"Which <b>communication tools</b> did you use regularly over the past year, and which do you want to work with over the next year? Select all that apply",FALSE,Matrix,Likert
+QID327,AISearchDev,"Which <b>AI-powered search and developer tools</b> did you use regularly over the past year, and which do you want to work with over the next year? Select all that apply.",FALSE,Matrix,Likert
+QID266,NEWSOSites,Which of the following Stack Overflow sites have you visited? Select all that apply. *,TRUE,MC,MAVR
+QID100,SOVisitFreq,How frequently would you say you visit Stack Overflow?,FALSE,MC,SAVR
+QID101,SOAccount,Do you have a Stack Overflow account?,FALSE,MC,SAVR
+QID102,SOPartFreq,"How frequently would you say you participate in Q&amp;A on Stack Overflow? By participate we mean ask, answer, vote for, or comment on questions.",FALSE,MC,SAVR
+QID334,SOHow,How do you use Stack Overflow?  Select all that apply.,FALSE,MC,MAVR
+QID106,SOComm,Do you consider yourself a member of the Stack Overflow community?,FALSE,MC,SAVR
+QID314,AISelect,Do you currently use AI tools in your development process? *,TRUE,MC,SAVR
+QID315,AISent,How favorable is your stance on using AI tools as part of your development workflow?,FALSE,MC,SAVR
+QID324,AIBen,"For the AI tools you use as part of your development workflow, what are the MOST important benefits you are hoping to achieve? Please check all that apply.",FALSE,MC,MAVR
+QID316,AIAcc,How much do you trust the accuracy of the output from AI tools as part of your development workflow?,FALSE,MC,SAVR
+QID343,AIComplex,How well do the AI tools you use in your development workflow handle complex tasks?,FALSE,MC,SAVR
+QID319,AITool,Which parts of your development workflow are you currently using AI tools for and which are you interested in using AI tools for over the next year?  Please select all that apply.,FALSE,Matrix,Likert
+QID320,AINext,"Thinking about how your job and process changes over time, how integrated in your workflow do you anticipate AI tools you are currently using will be 1 year from now?",FALSE,Matrix,Likert
+QID338,AIThreat,Do you believe AI is a threat to your current job?,FALSE,MC,SAVR
+QID339,AIEthics,Which AI ethical responsibilities are most important to you?  Select all that apply.,FALSE,MC,MAVR
+QID346,AIChallenges,What are the challenges to your company/whole team using AI code assistants or GenAI tools? Select all that apply.,FALSE,MC,MAVR
+QID299,TBranch,"<span style=""font-size:16px;"">Would you like to participate in the Professional Developer Series? *</span>",TRUE,MC,SAVR
+QID287,ICorPM,Are you an individual contributor or people manager?,FALSE,MC,SAVR
+QID288,WorkExp,How many years of working experience do you have?,FALSE,Slider,HSLIDER
+QID289,Knowledge,Please rate your level of agreement with the following statement:,FALSE,Matrix,Likert
+QID290,Frequency,How frequently do you experience each of the following?,FALSE,Matrix,Likert
+QID291,TimeSearching,"On an average day, how much time do you typically spend searching for answers or solutions to problems you encounter at work? (This includes time spent searching on your own, asking a colleague, and waiting for a response).",FALSE,MC,SAVR
+QID292,TimeAnswering,"On an average day, how much time do you typically spend answering questions you get asked at work?",FALSE,MC,SAVR
+QID342,Frustration,Which of these company challenges causes you the most frustration? Select all that apply.,FALSE,MC,MAVR
+QID304,ProfessionalTech,My company has:,FALSE,MC,MAVR
+QID332,ProfessionalCloud,"At my company, our applications, databases and services are hosted:",FALSE,MC,SAVR
+QID333,ProfessionalQuestion,"When you have a technical question at work, where do you first go to get an answer?",FALSE,MC,SAVR
+QID326,Industry,What industry is the company you work for in?,FALSE,MC,SAVR
+QID336,JobSat,How satisfied are you in your current professional developer role?,FALSE,MC,NPS
+QID337,JobSatPoints,Assign points to the following attributes of your job according to those that contribute the most to your satisfaction out of 100 total points:,FALSE,CS,VRTL
+QID286,SOTeamsUsage,Does your team use Stack Overflow for Teams?,FALSE,MC,SAVR
+QID132,SurveyLength,How do you feel about the length of the survey this year?,FALSE,MC,MAVR
+QID133,SurveyEase,How easy or difficult was this survey to complete?,FALSE,MC,MAVR
+QID289,Knowledge_1,I have interactions with people outside of my immediate team.,NA,MC,MAVR
+QID289,Knowledge_2,"Knowledge silos prevent me from getting ideas across the organization (i.e., one individual or team has information that isn't shared with others)",NA,MC,MAVR
+QID289,Knowledge_3,I can find up-to-date information within my organization to help me do my job.,NA,MC,MAVR
+QID289,Knowledge_4,I am able to quickly find answers to my questions with existing tools and resources.,NA,MC,MAVR
+QID289,Knowledge_5,I know which system or resource to use to find information and answers to questions I have.,NA,MC,MAVR
+QID289,Knowledge_6,I often find myself answering questions that I’ve already answered before.,NA,MC,MAVR
+QID289,Knowledge_7,Waiting on answers to questions often causes interruptions and disrupts my workflow.,NA,MC,MAVR
+QID289,Knowledge_8,I feel like I have the tools and/or resources to quickly understand and work on any area of my company's code/system/platform.,NA,MC,MAVR
+QID289,Knowledge_9,I have asked my employer to reimburse me for tools or a product that helps me do my job better or faster,NA,MC,MAVR
+QID290,Frequency_1,Needing help from people outside of your immediate team?,NA,MC,MAVR
+QID290,Frequency_2,Interacting with people outside of your immediate team?,NA,MC,MAVR
+QID290,Frequency_3,Encountering knowledge silos (where one individual or team has information that's not shared or distributed with other individuals or teams) at work?,NA,MC,MAVR
+QID337,JobSatPoints_1,Driving strategy for my team,NA,MC,MAVR
+QID337,JobSatPoints_4,Contributing to open source,NA,MC,MAVR
+QID337,JobSatPoints_5,Securing data and environments,NA,MC,MAVR
+QID337,JobSatPoints_6,Improving quality of code and developer environments,NA,MC,MAVR
+QID337,JobSatPoints_7,"Learning and using new technology, including platforms, APIs and libraries",NA,MC,MAVR
+QID337,JobSatPoints_8,"Designing and building environments, databases, and all things architecture",NA,MC,MAVR
+QID337,JobSatPoints_9,"Being a power user of a tool, developer language or process that others come to for answers and guidance about",NA,MC,MAVR
+QID337,JobSatPoints_10,Working with new and/or top-quality hardware,NA,MC,MAVR
+QID337,JobSatPoints_11,A well-staffed/sourced internal network that makes observability easy so network or runtime issues are addressed and fixed easily,NA,MC,MAVR
